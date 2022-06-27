@@ -1,0 +1,94 @@
+body {
+    display: block;
+    align-items: center;
+    background-image: url("https://images.theconversation.com/files/394/original/See_Explanation._Clicking_on_the_picture_will_download_the_highest_resolution_version_available.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    display: block;
+    position: relative;
+    color: rgb(251, 239, 23);
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 3rem;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(153, 60, 153, 0);
+    border-color: rgba(255, 228, 196, 0);
+}
+h2 {
+    font-size: 1.5rem;
+    color: lightblue;
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    display: block;
+    position: relative;
+    color: rgb(124, 222, 202);
+    width: 550px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.board {
+    background-color: none;
+    display: inline-flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: 5px solid black;
+    }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 90px);
+    grid-template-rows: repeat(6, 90px);
+    background-color: none;
+    gap:5px 5px;
+    margin: 10px;
+}
+
+.cell {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(220, 215, 215, 0.673);
+    font-size: 2rem;
+}
+
+.startReset {
+    display: inline;
+    font-size: 2rem;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 40px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.middle {
+    margin-right: 50px;
+}
+
+.pointer {
+    cursor: pointer
+}
